@@ -11,7 +11,7 @@ class Settings(BaseSettings):
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 30
 
     # Database
-    DATABASE_URL: str = "postgresql://postgres:amare@localhost/intellitracking"
+    DATABASE_URL: str = "postgresql://postgres:password@localhost/intellitracking"
 
     # Redis & Celery
     REDIS_URL: str = "redis://localhost:6379"
